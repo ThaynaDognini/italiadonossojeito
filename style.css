@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+}
+
+*{
+	margin: 0
+	padding: 0;
+	font-family: arial;
+}
+
+header{
+	background-color: #6DA486;
+	height: 115px;
+	padding: 30px;
+	color:#000000;
+	font-size: 50px;
+	font-family: arial;
+}
+
+p{
+	color:black;
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+}
+
+h1{
+	color: #6DA486;
+	text-align: center;
+	margin: 0 0 20px 0;
+	text-shadow: 1px 1px 3px #111111;
+}
+
+#principal{
+	background-image: url('ITALIA.PNG');
+	background-size: 100%;
+	min-height: 1000px;
+	padding: 52px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	height: 30px;
+	clear: both;
+	text-align: center;
+	padding: 10px 0px 0px 5px;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#efeito{
+	background-color:rgba(0, 0, 0, 0.1);
+	padding: 10px 30px 10px 30px;
+	clear: both;
+}
+
+#logo{
+	float: left;
+}
+
+#menu{
+	float: right;
+	margin-top: 50px;
+
+}
+
+#menu a{ 
+	text-decoration: none;
+	color: black;
+	padding: 55px 15px;
+	margin: 15px;
+
+}
+
+#menu a:hover{
+	background-color: black;
+	color: #6DA486;
+}
